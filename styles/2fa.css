@@ -1,0 +1,55 @@
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 767px) {
+  .main-produto {
+    padding: 10px;
+  }
+
+  .main-produto-titulo {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .main-produto-titulo img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .main-produto-titulo div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-produto-titulo h2 {
+    font-size: 18px;
+  }
+
+  .main-produto-titulo a {
+    font-size: 14px;
+  }
+
+  .main-produto-descri,
+  .main-produto-obj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .main-produto-descri img,
+  .main-produto-obj img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+}
+
+.main-produto-titulo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}

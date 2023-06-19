@@ -1,0 +1,326 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main-produto-back{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-produto-back img{
+    margin-top: 150px;
+    margin-left: 150px;
+    width: 800px;
+    height: auto;
+}
+.main-produto-titulo h2{
+    font-size: 45px;
+    color: #000000;
+    margin-left: 110px;
+    margin-top: 270px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.main-produto-titulo a{
+    background-color: #003b71;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 120px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3);
+}
+.main-produto-titulo a:hover{
+    text-decoration: none;
+    font-size: 31px;
+}
+.main-produto-descri{
+    display: flex;
+    gap: 20px;
+    margin-top: 180px;
+}
+.main-produto-descri-texto{
+    width: 60%;
+    margin-top: 80px;
+    
+}
+.main-produto-descri-texto h2{
+    text-align: center;
+    font-size: 35px;
+    color: #003b71;
+    font-weight: bold;
+}
+.main-produto-descri-texto p{
+    font-size: 18px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+.main-produto-descri img{
+    margin-top: 20px;
+    height: 420px;
+    width: auto;
+}
+.main-produto-obj{
+    display: flex;
+    gap: 20px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.main-produto-obj img{
+    margin-top: 20;
+    height: 470px;
+    width: auto;
+    margin-left: 40px;
+}
+.main-produto-obj-texto h2{
+    text-align: center;
+    font-size: 35px;
+    color: #003b71;
+    font-weight: bold;
+}
+.main-produto-obj p {
+    font-size: 18px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-weight: bold;
+}
+.main-tell-back img{
+    width: 500px;
+    height: auto;
+    margin-left: 400px;
+    margin-top: 75px;
+}
+#nm-principal{
+    width: 500px;
+    height: auto;
+    margin-left: 400px;
+    margin-top: 75px;
+}
+.main-produto-obj li {
+    font-size: 15px;
+    list-style: none;
+    margin-left: 70px;
+    margin-right: 40px;
+    font-weight: bold;
+}
+h3{
+    font-size:17px;
+    font-weight: bold;
+    color: #003b71;
+}
+#sms-foto{
+    width: 500px;
+    height: auto;
+    margin-left: 200px;
+    margin-top: 95px;
+}
+#sms-foto2{
+    height: 470px;
+    width: auto;
+    margin-left: 40px;
+    margin-top: 150px; 
+}
+#google-foto{
+    width: 800px;
+    height: auto;
+    margin-left: 400px;
+    margin-top: 95px;
+}
+
+/* Estilos gerais para dispositivos móveis - HEADER */
+@media only screen and (max-width: 767px) {
+    .cabecalho-primario {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      background-color: #31353b;
+    }
+  
+    .navbar-left,
+    .navbar-right {
+      flex-basis: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin: 10px 0;
+      padding: 0;
+    }
+  
+    .navbar-left li,
+    .navbar-right li {
+      flex-basis: 50%;
+      text-align: center;
+    }
+  
+    .botao-login {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-basis: 100%;
+      margin-top: 10px;
+    }
+  
+    .botao-login-b {
+      padding: 5px;
+      font-size: 12px;
+    }
+  
+    .cabecalho-secundario-cpaas {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      background-color: #ca1c2a;
+      color: #fff;
+    }
+  
+    .cabecalho-secundario-cpaas img {
+      width: 150px;
+      height: 33.5px;
+    }
+  
+    .menu {
+      display: none;
+    }
+  
+    .navbar {
+      display: block;
+      margin-top: 10px;
+      padding: 5px;
+    }
+  
+    .menu li {
+      position: relative;
+      display: block;
+    }
+  
+    .menu-opcoes {
+      display: block;
+      padding: 5px;
+      color: #fff;
+      font-weight: bold;
+    }
+  
+    .menu-opcoes:hover {
+      text-decoration: none;
+      color: #fff;
+    }
+  
+    .submenu {
+      display: block;
+      padding: 5px;
+      color: #000;
+      background: #fff;
+      border: 1px solid #ccc;
+    }
+  
+    .submenu:hover {
+      background-color: #b9b4b5;
+      text-decoration: none;
+    }
+  
+    .menu li ul {
+      position: static;
+      padding: 0;
+      margin-top: 0;
+      display: none;
+      list-style: none;
+    }
+  
+    .menu li:hover ul,
+    .menu li.over ul {
+      display: none;
+    }
+  }
+  
+  /* Estilos gerais para dispositivos móveis - MAIN */
+@media only screen and (max-width: 767px) {
+    .main-cpaas {
+      padding: 10px;
+    }
+  
+    .main-cpaas-titulo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      text-align: center;
+    }
+  
+    .cpaas-titulo h1 {
+      font-size: 24px;
+      margin-bottom: 5px;
+    }
+  
+    .cpaas-titulo p {
+      font-size: 16px;
+    }
+  
+    .cpaas-titulo a {
+      font-size: 16px;
+    }
+  
+    .img-inicio-cpaas {
+      margin-top: 10px;
+      text-align: center;
+    }
+  
+    .img-inicio-cpaas img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+    }
+  
+    .main-cpaas-descri {
+      margin-top: 20px;
+    }
+  
+    .main-cpaas-descri-pri,
+    .main-cpaas-descri-sec {
+      text-align: center;
+    }
+  
+    .main-cpaas-descri-pri h2,
+    .main-cpaas-descri-sec h2 {
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+  
+    .main-cpaas-descri-pri p,
+    .main-cpaas-descri-sec p {
+      font-size: 14px;
+    }
+  
+    .h2-benefi h2 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+  
+    .card-beneficios {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+  
+    .card {
+      width: calc(50% - 5px);
+    }
+  
+    .card-text {
+      text-align: center;
+    }
+  
+    .card-text h2 {
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+  
+    .card-text a {
+      font-size: 14px;
+    }
+  }
+  
